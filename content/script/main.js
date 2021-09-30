@@ -27,7 +27,7 @@ window.onload = function() {
 
         tile: function() {
             var image = new Image();
-            image.src = "mario.github.io/content/image/platform-top.png";
+            image.src = "/content/image/platform-top.png";
             return image;
         },
     });
@@ -38,7 +38,7 @@ window.onload = function() {
 
         tile: function() {
             var image = new Image();
-            image.src = "mario.github.io/content/image/platform-air.png";
+            image.src = "/content/image/platform-air.png";
             return image;
         },
     });
@@ -49,7 +49,7 @@ window.onload = function() {
 
         tile: function() {
             var image = new Image();
-            image.src = "mario.github.io/content/image/tile-sky.png";
+            image.src = "/content/image/tile-sky.png";
             return image;
         },
     });
@@ -65,10 +65,10 @@ window.onload = function() {
             var animationSlide3 = new Image();
             var animationSlide4 = new Image();
 
-            animationSlide1.src = "mario.github.io/content/image/platform-q.png";
-            animationSlide2.src = "mario.github.io/content/image/platform-q1.png";
-            animationSlide3.src = "mario.github.io/content/image/platform-q2.png";
-            animationSlide4.src = "mario.github.io/content/image/platform-q3.png";
+            animationSlide1.src = "/content/image/platform-q.png";
+            animationSlide2.src = "/content/image/platform-q1.png";
+            animationSlide3.src = "/content/image/platform-q2.png";
+            animationSlide4.src = "/content/image/platform-q3.png";
 
             var animation = [
                 
@@ -89,7 +89,7 @@ window.onload = function() {
 
         tile: function() {
             var image = new Image();
-            image.src = "mario.github.io/content/image/platform-brick.png";
+            image.src = "/content/image/platform-brick.png";
             return image;
         },
     });
